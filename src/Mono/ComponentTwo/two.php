@@ -5,3 +5,4 @@
 
 function componentTwoFunctionOne(){}
 function componentTwoFunctionTwo(){}
+function componentTwoFunctionThree(){}
