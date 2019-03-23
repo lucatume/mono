@@ -9,7 +9,7 @@ then
     exit 1
 fi
 
-CURRENT_BRANCH="5.8"
+CURRENT_BRANCH="1.0-dev"
 VERSION=$1
 
 # Always prepend with "v"
@@ -18,14 +18,14 @@ then
     VERSION="v$VERSION"
 fi
 
-for REMOTE in auth broadcasting bus cache config console container contracts cookie database encryption events filesystem hashing http log mail notifications pagination pipeline queue redis routing session support translation validation view
+for REMOTE in component-one component-two
 do
     echo ""
     echo ""
     echo "Releasing $REMOTE";
 
-    TMP_DIR="/tmp/laravel-split"
-    REMOTE_URL="git@github.com:illuminate/$REMOTE.git"
+    TMP_DIR="/tmp/mono-split"
+    REMOTE_URL="git@github.com:lucatume/$REMOTE.git"
 
     rm -rf $TMP_DIR;
     mkdir $TMP_DIR;
