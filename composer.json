@@ -1,0 +1,23 @@
+{
+    "name": "lucatume/mono-test",
+    "description": "Monolith test",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "theAverageDev (Luca Tumedei)",
+            "email": "luca@theaveragedev.com"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "replace": {
+        "lucatume/component-one": "self.version",
+        "lucatume/component-two": "self.version"
+    }
+}
