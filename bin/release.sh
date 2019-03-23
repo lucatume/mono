@@ -9,7 +9,7 @@ then
     exit 1
 fi
 
-CURRENT_BRANCH="1.0-dev"
+CURRENT_BRANCH="v1.1-dev"
 VERSION=$1
 
 # Always prepend with "v"
