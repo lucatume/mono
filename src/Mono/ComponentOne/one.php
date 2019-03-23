@@ -4,3 +4,5 @@
  */
 
 function componentOneFunctionOne(){}
+function componentOneFunctionTwo(){}
+
